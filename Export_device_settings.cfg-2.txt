@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<!-- Application SIP Nucla 4.2.0.0197 17-Sep-12 12:02 -->
-<!-- Created 30-11-2012 10:29 -->
+<!-- Application SIP Nucla 4.2.1.0003 18-Oct-12 18:34 -->
+<!-- Created 30-11-2012 10:42 -->
 <PHONE_CONFIG>
 	<DEVICE_SETTINGS
 		device.set="1"
@@ -67,11 +67,11 @@
 		device.dhcp.option60Type.set="1"
 		device.dhcp.option60Type="Binary"
 		device.prov.upgradeServer.set="1"
-		device.prov.upgradeServer="http://downloads.polycom.com/voice/software/SpectraLink_8400_Software_4_2_0_0197/"
+		device.prov.upgradeServer=""
 		device.prov.serverName.set="1"
-		device.prov.serverName="169.254.1.1"
+		device.prov.serverName="192.168.1.40"
 		device.prov.user.set="1"
-		device.prov.user="PlcmSpIp"
+		device.prov.user="anonymous"
 		device.prov.redunAttemptLimit.set="1"
 		device.prov.redunAttemptLimit="3"
 		device.prov.redunInterAttemptDelay.set="1"
@@ -135,7 +135,7 @@
 		device.syslog.prependMac.set="1"
 		device.syslog.prependMac="1"
 		device.sntp.serverName.set="1"
-		device.sntp.serverName="pool.ntp.org"
+		device.sntp.serverName="north-america.pool.ntp.org"
 		device.sntp.gmtOffset.set="1"
 		device.sntp.gmtOffset="-28800"
 		device.dns.serverAddress.set="1"
@@ -161,7 +161,7 @@
 		device.wifi.ipGateway.set="1"
 		device.wifi.ipGateway="0.0.0.0"
 		device.wifi.ssid.set="1"
-		device.wifi.ssid="TAS802"
+		device.wifi.ssid="TASVoice"
 		device.wifi.ccxMandatory.set="1"
 		device.wifi.ccxMandatory="0"
 		device.wifi.acMandatory.set="1"
@@ -169,11 +169,11 @@
 		device.wifi.dot11n.enabled.set="1"
 		device.wifi.dot11n.enabled="1"
 		device.wifi.securityMode.set="1"
-		device.wifi.securityMode="WEP"
+		device.wifi.securityMode="WPA2-PSK"
 		device.wifi.wep.authType.set="1"
 		device.wifi.wep.authType="OpenSystem"
 		device.wifi.wep.keyLength.set="1"
-		device.wifi.wep.keyLength="104bit"
+		device.wifi.wep.keyLength="40bit"
 		device.wifi.wep.defaultKey.set="1"
 		device.wifi.wep.defaultKey="1"
 		device.wifi.wep.encryptionEnabled.set="1"
@@ -193,7 +193,7 @@
 		device.wifi.radio.band2_4GHz.enable.set="1"
 		device.wifi.radio.band2_4GHz.enable="1"
 		device.wifi.radio.band2_4GHz.txPower.set="1"
-		device.wifi.radio.band2_4GHz.txPower="5"
+		device.wifi.radio.band2_4GHz.txPower="7"
 		device.wifi.radio.band5GHz.enable.set="1"
 		device.wifi.radio.band5GHz.enable="0"
 		device.wifi.radio.band5GHz.subBand1.enable.set="1"
