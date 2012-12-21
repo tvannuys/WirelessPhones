@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<!-- Application SIP Nucla 4.2.0.0197 17-Sep-12 12:02 -->
-<!-- Created 18-12-2012 15:47 -->
+<!-- Application SIP Nucla 4.2.1.0003 18-Oct-12 18:34 -->
+<!-- Created 21-12-2012 10:28 -->
 <PHONE_BACKUP>
 	<DEVICE_SETTINGS
 		device.set="1"
@@ -67,9 +67,9 @@
 		device.dhcp.option60Type.set="1"
 		device.dhcp.option60Type="Binary"
 		device.prov.upgradeServer.set="1"
-		device.prov.upgradeServer="http://downloads.polycom.com/voice/software/SpectraLink_8400_Software_4_2_0_0197/"
+		device.prov.upgradeServer=""
 		device.prov.serverName.set="1"
-		device.prov.serverName="169.254.1.1"
+		device.prov.serverName="kenpro.tasupply.com"
 		device.prov.user.set="1"
 		device.prov.user="PlcmSpIp"
 		device.prov.redunAttemptLimit.set="1"
@@ -135,7 +135,7 @@
 		device.syslog.prependMac.set="1"
 		device.syslog.prependMac="1"
 		device.sntp.serverName.set="1"
-		device.sntp.serverName="pool.ntp.org"
+		device.sntp.serverName="north-america.pool.ntp.org"
 		device.sntp.gmtOffset.set="1"
 		device.sntp.gmtOffset="-28800"
 		device.dns.serverAddress.set="1"
@@ -246,14 +246,14 @@
 	/>
 	<WEB
 		voIpProt.SIP.outboundProxy.address="s18495.pbxtra.fonality.com"
-		msg.mwi.1.callBack="8555"
+		msg.mwi.1.callBack="8500"
 		msg.mwi.1.callBackMode="contact"
-		msg.mwi.1.subscribe="1610"
+		msg.mwi.1.subscribe="1244"
 		reg.1.address="SOFTPHONE009"
 		reg.1.auth.password="C6q9suvwb3KQ"
 		reg.1.auth.userId="SOFTPHONE009"
-		reg.1.displayName="1053-Lance"
-		reg.1.label="1053-Lance"
+		reg.1.displayName="1053-Thomas"
+		reg.1.label="1053-Thomas"
 		voIpProt.server.1.address="s18495.pbxtra.fonality.com"
 	/>
 </PHONE_BACKUP>
