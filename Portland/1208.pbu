@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<!-- Application SIP Nucla 4.2.0.0197 17-Sep-12 12:02 -->
-<!-- Created 11-12-2012 13:13 -->
+<!-- Application SIP Nucla 4.2.1.0003 18-Oct-12 18:34 -->
+<!-- Created 11-12-2012 13:55 -->
 <PHONE_BACKUP>
 	<DEVICE_SETTINGS
 		device.set="1"
@@ -67,9 +67,9 @@
 		device.dhcp.option60Type.set="1"
 		device.dhcp.option60Type="Binary"
 		device.prov.upgradeServer.set="1"
-		device.prov.upgradeServer="http://downloads.polycom.com/voice/software/SpectraLink_8400_Software_4_2_0_0197/"
+		device.prov.upgradeServer=""
 		device.prov.serverName.set="1"
-		device.prov.serverName="192.168.3.108"
+		device.prov.serverName="porpro.tasupply.com"
 		device.prov.user.set="1"
 		device.prov.user="PlcmSpIp"
 		device.prov.redunAttemptLimit.set="1"
